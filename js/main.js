@@ -38,11 +38,9 @@ function genratQoute() {
   do {
     var num = Math.floor(Math.random() * quotes.length);
   } while (lastQoute === quotes[num].quote);
-
   var qouteAuther = quotes[num].author;
   var qoute = quotes[num].quote;
   document.getElementById("qouteAuther").innerHTML = qouteAuther;
   document.getElementById("qoute").innerHTML = qoute;
   lastQoute = qoute;
-  console.log(num);
 }
