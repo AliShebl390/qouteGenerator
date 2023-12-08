@@ -43,4 +43,5 @@ function genratQoute() {
   document.getElementById("qouteAuther").innerHTML = qouteAuther;
   document.getElementById("qoute").innerHTML = qoute;
   lastQoute = qoute;
+  console.log(num);
 }
