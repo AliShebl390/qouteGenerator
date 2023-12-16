@@ -33,6 +33,7 @@ var quotes = [
   },
 ];
 
+
 var lastQoute = "";
 function genratQoute() {
   do {
@@ -43,5 +44,4 @@ function genratQoute() {
   document.getElementById("qouteAuther").innerHTML = qouteAuther;
   document.getElementById("qoute").innerHTML = qoute;
   lastQoute = qoute;
-  console.log(num);
 }
